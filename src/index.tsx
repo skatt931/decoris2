@@ -1,10 +1,20 @@
 import * as React from 'react'
 import styles from './styles.module.css'
+import styled from 'styled-components'
 
 interface Props {
   text: string
+  color?: string
 }
 
+const StyledDiv = styled.div`
+  background-color: rgb(200, 50, 47);
+`
+
 export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+  return (
+    <StyledDiv>
+      <div className={styles.test}>Example Component 2: {text}</div>
+    </StyledDiv>
+  )
 }

@@ -4,7 +4,7 @@ import { ExampleComponent } from 'decoris2'
 import 'decoris2/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text='Create React Library Example 😄 lololol' />
+  return <ExampleComponent text='Create React Library Example 😄' />
 }
 
 export default App
