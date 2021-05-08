@@ -2,7 +2,9 @@ import * as React from 'react'
 import styles from './styles.module.css'
 import styled from 'styled-components'
 
-import './components/simple-card'
+import { SimpleCard } from './components/simple-card'
+
+export { SimpleCard }
 
 interface Props {
   text: string
