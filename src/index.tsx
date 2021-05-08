@@ -2,6 +2,8 @@ import * as React from 'react'
 import styles from './styles.module.css'
 import styled from 'styled-components'
 
+import './components/simple-card'
+
 interface Props {
   text: string
   color?: string
